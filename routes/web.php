@@ -55,7 +55,7 @@ Route::get('/vitrine/produit', function () {
 
 /************  CRM  *****************/
 Route::get('/', function () {
-    return view('welcome');
+    return view('/vitrine/test');
 });
 
 // Admin
